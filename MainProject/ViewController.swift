@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CTMediator
 
 class ViewController: UIViewController {
 
@@ -16,8 +17,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onTap(_ sender: Any) {
-        let aVC = storyboard?.instantiateViewController(withIdentifier: "AViewController") as! AViewController
-        navigationController?.pushViewController(aVC, animated: true)
+        
+        let vc = CTMediator.sharedInstance().av
+        
+//        let aVC = storyboard?.instantiateViewController(withIdentifier: "AViewController") as! AViewController
+//        navigationController?.pushViewController(aVC, animated: true)
     }
 
 
