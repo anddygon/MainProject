@@ -82,3 +82,14 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/A/A.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/A_Category/A_Category.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CTMediator/CTMediator.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/A/A.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/A_Category/A_Category.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CTMediator/CTMediator.framework"
+fi

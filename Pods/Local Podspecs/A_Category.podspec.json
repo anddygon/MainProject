@@ -1,6 +1,6 @@
 {
   "name": "A_Category",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "summary": "A_Category.",
   "description": "this is A_Category",
   "homepage": "https://github.com/anddygon/A_Category",
@@ -12,13 +12,13 @@
     "CasaTaloyum": "casatwy@msn.com"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "source": {
     "git": "https://github.com/anddygon/A_Category.git",
-    "tag": "1.0.1"
+    "tag": "1.0.0"
   },
-  "source_files": "A_Category/A_Category/**/*.{swift}",
+  "source_files": "A_Category/A_Category/**/*.{h,m}",
   "requires_arc": true,
   "dependencies": {
     "CTMediator": [

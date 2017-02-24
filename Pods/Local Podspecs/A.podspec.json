@@ -1,0 +1,23 @@
+{
+  "name": "A",
+  "version": "1.0.0",
+  "summary": "A.",
+  "description": "this is A",
+  "homepage": "https://github.com/anddygon/A",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/anddygon/A.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "A/A/**/*.swift",
+  "requires_arc": true
+}

@@ -6,5 +6,8 @@ target 'MainProject' do
   use_frameworks!
 
   # Pods for MainProject
-
+  
+  pod 'A_Category', :path => "../A_Category"
+  #pod 'A', :path => "../A"
+  
 end

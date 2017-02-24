@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import A
+import A_Category
 
 class ViewController: UIViewController {
 
@@ -16,11 +18,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onTap(_ sender: Any) {
-        let aVC = AViewController()
-        aVC.view.backgroundColor = .white
+        
+//        let aVC = AViewController()
+//        aVC.view.backgroundColor = .white
+//        navigationController?.pushViewController(aVC, animated: true)
+        let aVC = CTMediator.sharedInstance().aViewController()!
         navigationController?.pushViewController(aVC, animated: true)
     }
-
 
 }
 
