@@ -60,37 +60,6 @@
             <point key="canvasLocation" x="216" y="139"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="E6L-kR-VZe">
-            <objects>
-                <viewController storyboardIdentifier="AViewController" id="YhR-LB-jwT" customClass="AViewController" customModule="MainProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lcj-qV-Eqv"/>
-                        <viewControllerLayoutGuide type="bottom" id="IWd-uq-Wnm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Uc8-gu-Gh2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtL-4U-Ghh">
-                                <rect key="frame" x="85.5" y="225" width="149" height="30"/>
-                                <state key="normal" title="Push BViewController"/>
-                                <connections>
-                                    <action selector="onTap:" destination="YhR-LB-jwT" eventType="touchUpInside" id="ZjN-sS-1bf"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="XtL-4U-Ghh" firstAttribute="centerY" secondItem="Uc8-gu-Gh2" secondAttribute="centerY" id="2rI-cp-fQ7"/>
-                            <constraint firstItem="XtL-4U-Ghh" firstAttribute="centerX" secondItem="Uc8-gu-Gh2" secondAttribute="centerX" id="IAb-9w-3Rx"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7t5-EE-Uuk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="216" y="880"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="Ofe-B7-qpy">
             <objects>
                 <viewController storyboardIdentifier="BViewController" id="IWc-fa-vWG" customClass="BViewController" customModule="MainProject" customModuleProvider="target" sceneMemberID="viewController">

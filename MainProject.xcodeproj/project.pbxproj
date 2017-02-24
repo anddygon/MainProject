@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C0FE3F9A85E327DAFA388239 /* Pods_MainProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0947E1051BD12A7B13B9AB /* Pods_MainProject.framework */; };
-		E1C8944C1E600C7D00CB884A /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8944B1E600C7D00CB884A /* AViewController.swift */; };
 		E1CD31971E5E82B200086DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD31961E5E82B200086DD1 /* AppDelegate.swift */; };
 		E1CD31991E5E82B200086DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD31981E5E82B200086DD1 /* ViewController.swift */; };
 		E1CD319C1E5E82B200086DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CD319A1E5E82B200086DD1 /* Main.storyboard */; };
@@ -22,7 +21,6 @@
 		5CF8D687AF48588E6B3A34E3 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainProject/Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
 		BDD8F2D60E1E8D1D288A1869 /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MainProject/Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
 		E1A357CF1E5EFA1600B526C6 /* MainProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainProject-Bridging-Header.h"; sourceTree = "<group>"; };
-		E1C8944B1E600C7D00CB884A /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		E1CD31931E5E82B200086DD1 /* MainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CD31961E5E82B200086DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1CD31981E5E82B200086DD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			children = (
 				E1CD31961E5E82B200086DD1 /* AppDelegate.swift */,
 				E1CD31981E5E82B200086DD1 /* ViewController.swift */,
-				E1C8944B1E600C7D00CB884A /* AViewController.swift */,
 				E1CD31AA1E5E831500086DD1 /* BViewController.swift */,
 				E1CD319A1E5E82B200086DD1 /* Main.storyboard */,
 				E1CD319D1E5E82B200086DD1 /* Assets.xcassets */,
@@ -221,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C8944C1E600C7D00CB884A /* AViewController.swift in Sources */,
 				E1CD31991E5E82B200086DD1 /* ViewController.swift in Sources */,
 				E1CD31AB1E5E831500086DD1 /* BViewController.swift in Sources */,
 				E1CD31971E5E82B200086DD1 /* AppDelegate.swift in Sources */,
