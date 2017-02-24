@@ -1,6 +1,6 @@
 {
   "name": "A_Category",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A_Category.",
   "description": "this is A_Category",
   "homepage": "https://github.com/anddygon/A_Category",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/anddygon/A_Category.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "source_files": "A_Category/A_Category/**/*.{h,m}",
   "requires_arc": true,

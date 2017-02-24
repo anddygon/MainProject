@@ -1,11 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## A
-
-MIT
-
-
 ## A_Category
 
 MIT
